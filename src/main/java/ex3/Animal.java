@@ -1,5 +1,10 @@
 package ex3;
 
+/**
+ * Classe représentant un animal avec son nom son type et son comportement
+ * @author ETY5
+ *
+ */
 public class Animal {
 
 	/** Enumération TypeAnimal, le type de l'animal */

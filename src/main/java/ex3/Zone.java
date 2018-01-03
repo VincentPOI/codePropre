@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * Classe représentant une zone, une zone contient plusieurs animaux contenus dans une liste, la quantité de nourriture consomée chaque jour et un nom
+ * @author ETY5
+ *
+ */
 public abstract class Zone {
 	
 	/**String nom de la zone*/

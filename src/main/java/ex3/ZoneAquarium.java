@@ -7,6 +7,7 @@ public class ZoneAquarium extends Zone {
 		this.nom ="Aquarium";
 		this.quantiteNouriture = 0.2;
 	}
+	
 	@Override
 	public boolean checkAnimal(Animal animal) {
 		if (animal.getTypes().equals(TypeAnimal.POISSON)){

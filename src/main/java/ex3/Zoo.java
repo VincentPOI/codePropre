@@ -3,6 +3,11 @@ package ex3;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Classe représentant un zoo avec son nom et ses différentes zones
+ * @author ETY5
+ *
+ */
 public class Zoo {
 
 	/**Nom du Zoo*/
