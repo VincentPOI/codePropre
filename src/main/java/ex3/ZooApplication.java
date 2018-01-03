@@ -7,13 +7,6 @@ public class ZooApplication {
 		
 		zoo.addAnimal(new Animal(TypeAnimal.MAMMIFERE, "Gazelle", Comportement.HERBIVORE));
 		zoo.afficherListeAnimaux();
-//		zoo.addAnimal(new Animal(types, nom, comportements));
-//		zoo.addAnimal(new Animal(types, nom, comportements));
-//		zoo.addAnimal(new Animal(types, nom, comportements));
-//		zoo.addAnimal(new Animal(types, nom, comportements));
-//		zoo.addAnimal(new Animal(types, nom, comportements));
-//		zoo.addAnimal(new Animal(types, nom, comportements));
-//		zoo.addAnimal(new Animal(types, nom, comportements));
 	}
 
 }
