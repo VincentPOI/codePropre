@@ -4,8 +4,11 @@ package ex3;
 
 public class Animal {
 	
+	/**Enumération TypeAnimal, le type de l'animal*/
 	private TypeAnimal types;
+	/**String nom de l'animal*/
 	private String nom;
+	/**Enumération Comportement, le comportement de l'animal*/
 	private Comportement comportements;
 	
 	public Animal(TypeAnimal types, String nom, Comportement comportements) {
@@ -13,6 +16,7 @@ public class Animal {
 		this.nom = nom;
 		this.comportements = comportements;
 	}
+
 	public TypeAnimal getTypes() {
 		return types;
 	}
