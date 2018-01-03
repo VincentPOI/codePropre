@@ -1,42 +1,72 @@
 package ex3;
 
-
-
 public class Animal {
-	
-	/**Enumération TypeAnimal, le type de l'animal*/
+
+	/** Enumération TypeAnimal, le type de l'animal */
 	private TypeAnimal types;
-	/**String nom de l'animal*/
+	/** String nom de l'animal */
 	private String nom;
-	/**Enumération Comportement, le comportement de l'animal*/
+	/** Enumération Comportement, le comportement de l'animal */
 	private Comportement comportements;
-	
+
+	/**
+	 * @param types
+	 * @param nom
+	 * @param comportements
+	 */
 	public Animal(TypeAnimal types, String nom, Comportement comportements) {
+		super();
 		this.types = types;
 		this.nom = nom;
 		this.comportements = comportements;
 	}
 
+	/**
+	 * @return the types
+	 */
 	public TypeAnimal getTypes() {
 		return types;
 	}
+
+	/**
+	 * @param types
+	 *            the types to set
+	 */
 	public void setTypes(TypeAnimal types) {
 		this.types = types;
 	}
-	public String getNom() {
-		return nom;
-	}
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
+
+	/**
+	 * @return the comportements
+	 */
 	public Comportement getComportements() {
 		return comportements;
 	}
+
+	/**
+	 * @param comportements
+	 *            the comportements to set
+	 */
 	public void setComportements(Comportement comportements) {
 		this.comportements = comportements;
 	}
-	
-	public String toString(){
-			return this.nom;
+
+	/**
+	 * @return the nom
+	 */
+	public String getNom() {
+		return nom;
+	}
+
+	/**
+	 * @param nom
+	 *            the nom to set
+	 */
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String toString() {
+		return this.nom;
 	}
 }
