@@ -21,6 +21,20 @@ public class Zoo {
 	
 
 	/**
+	 * @return the listeZone
+	 */
+	public List<Zone> getListeZone() {
+		return listeZone;
+	}
+
+	/**
+	 * @param listeZone the listeZone to set
+	 */
+	public void setListeZone(List<Zone> listeZone) {
+		this.listeZone = listeZone;
+	}
+
+	/**
 	 * Constructeur du zoo, rempli la liste de zone avec 4 zones différentes
 	 * @param nom
 	 */

@@ -13,11 +13,39 @@ public abstract class Zone {
 	
 	/**String nom de la zone*/
 	protected String nom;	
+	/**
+	 * @return the nom
+	 */
+	public String getNom() {
+		return nom;
+	}
+
+	/**
+	 * @param nom the nom to set
+	 */
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
 	/**Double quantité de nourriture consomé journaliérement par les animaux de la zone*/
 	protected double quantiteNouriture;
 	/**List de Animal, contient la liste de tout les animaux présent dans la zone*/
 	protected List<Animal> animals = new ArrayList<Animal>();
 	
+	/**
+	 * @return the animals
+	 */
+	public List<Animal> getAnimals() {
+		return animals;
+	}
+
+	/**
+	 * @param animals the animals to set
+	 */
+	public void setAnimals(List<Animal> animals) {
+		this.animals = animals;
+	}
+
 	/**
 	 * Méthode permettant de compter les animaux dans la zone
 	 * @return int le nombres d'animaux présent dans la zone
